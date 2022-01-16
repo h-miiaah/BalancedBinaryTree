@@ -19,4 +19,5 @@
     if (!root) return depth;
     var left = balancedHelper(root.left, depth + 1);
     var right = balancedHelper(root.right, depth + 1);
+    if (left === -1 || right === -1 || Math.abs(left - right) > 1) return -1;
   };
