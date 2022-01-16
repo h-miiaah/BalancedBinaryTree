@@ -14,4 +14,7 @@
  var isBalanced = function(root) {
 
   };
-  
+
+  var balancedHelper = function (root, depth) {
+    
+  };
