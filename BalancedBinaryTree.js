@@ -18,4 +18,5 @@
   var balancedHelper = function (root, depth) {
     if (!root) return depth;
     var left = balancedHelper(root.left, depth + 1);
+    var right = balancedHelper(root.right, depth + 1);
   };
