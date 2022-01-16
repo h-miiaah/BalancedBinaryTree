@@ -16,5 +16,5 @@
   };
 
   var balancedHelper = function (root, depth) {
-    
+    if (!root) return depth;
   };
