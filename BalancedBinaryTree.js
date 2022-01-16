@@ -26,6 +26,7 @@
 
   /*
 
+  - We start with a balancedHelper function that takes in a node and its current depth.
   
 
   */
