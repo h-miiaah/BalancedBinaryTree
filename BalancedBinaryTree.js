@@ -12,7 +12,7 @@
  */
 
  var isBalanced = function(root) {
-
+    return balancedHelper(root, 0) >= 0;
   };
 
   var balancedHelper = function (root, depth) {
