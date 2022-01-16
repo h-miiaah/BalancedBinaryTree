@@ -32,6 +32,7 @@
   - If any of the recursive calls return -1, then we know the tree is unbalanced, and we immediately return -1.
   - Otherwise, we return the maximum depth of the left or right subtree.
   - Finally, we check if the tree is balanced by calling the balancedHelper function on the root node.
+  - If the balancedHelper function returns a value >= 0, then we know the tree is balanced, and we return true.
   
 
   */
