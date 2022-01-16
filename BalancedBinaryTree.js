@@ -31,5 +31,7 @@
   - Otherwise, we recursively call the balancedHelper function on the node’s left and right children.
   - If any of the recursive calls return -1, then we know the tree is unbalanced, and we immediately return -1.
   - Otherwise, we return the maximum depth of the left or right subtree.
+  - Finally, we check if the tree is balanced by calling the balancedHelper function on the root node.
+  
 
   */
