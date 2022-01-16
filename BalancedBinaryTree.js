@@ -30,6 +30,6 @@
   - If the node is null, we return the current depth.
   - Otherwise, we recursively call the balancedHelper function on the node’s left and right children.
   - If any of the recursive calls return -1, then we know the tree is unbalanced, and we immediately return -1.
-  
+  - Otherwise, we return the maximum depth of the left or right subtree.
 
   */
