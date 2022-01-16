@@ -29,5 +29,7 @@
   - We start with a balancedHelper function that takes in a node and its current depth.
   - If the node is null, we return the current depth.
   - Otherwise, we recursively call the balancedHelper function on the node’s left and right children.
+  - If any of the recursive calls return -1, then we know the tree is unbalanced, and we immediately return -1.
+  
 
   */
